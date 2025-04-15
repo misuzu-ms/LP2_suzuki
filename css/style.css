@@ -345,6 +345,10 @@ display: inline-block;
   background-color: #D6F2EE;
 }
 
+.container {
+  flex-direction: column-reverse;
+}
+
 .nice-wrap2__con {
   justify-content: space-between;
   padding: 7% 6%;
@@ -523,8 +527,9 @@ letter-spacing: 0.3rem;
 
 .doubt-wrap__con__right {
   aspect-ratio: 1.7 / 1.9;
-  margin-top: -7%;
+  margin-top: -3%;
   margin-right: -3%;
+  margin-bottom: 4%;
 }
 
 .doubt-wrap__con__right img {
@@ -977,6 +982,10 @@ letter-spacing: 0.3rem;
     display: none;
   }
 
+    .top-wrap {
+      padding-top: 6.5%;
+    }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -1043,37 +1052,37 @@ letter-spacing: 0.3rem;
     }
 
     .top-wrap {
-      padding-top: 14.5%;
+      padding-top: 14%;
     }
 
     .__cta-btn__left {
-    font-size: 0.8em;
+    font-size: 0.7em;
     width: 42%;
         }
 
   .__cta-btn__left span {
-  font-size: clamp(1.3rem, 1rem + 1vw, 1.8rem);
+  font-size: clamp(1.1rem, 1rem + 1vw, 1.2rem);
   }
 
   .__cta-btn__left a i {
-      font-size: clamp(0.8rem, 1rem + 1vw, 1.1rem);
+      font-size: clamp(0.7rem, 1rem + 1vw, 1rem);
     }
 
   .__cta-btn__right {
-  font-size: 0.8em;
+  font-size: 0.7em;
   width: 42%;
   }
         
   .__cta-btn__right span {
-  font-size: clamp(1.3rem, 1rem + 1vw, 1.8rem);
+  font-size: clamp(1.1rem, 1rem + 1vw, 1rem);
   }
 
   .recom-wrap__con1__ttl h4 span {
-    font-size: clamp(2rem, 0.795rem + 0.27vw, 1.3rem);
+    font-size: clamp(1.7rem, 0.795rem + 0.27vw, 1.3rem);
   }
 
     .recom-wrap__con2__ttl h1 span {
-      font-size: clamp(3.4rem, 0.795rem + 0.27vw, 1.7rem);
+      font-size: clamp(2.8rem, 0.795rem + 0.27vw, 1.7rem);
       letter-spacing: 0.3rem;
     }
 
@@ -1090,9 +1099,17 @@ letter-spacing: 0.3rem;
 }
 
 .kinds-wrap__con__box {
-  padding: 3% 15%;
-  width: 80%;
-  margin-left: -5%;
+  width: 85%;
+  margin-left: -7.5%;
+}
+
+.kinds-wrap__con__box__circle p span {
+  font-size: clamp(0.3rem, 0.795rem + 0.27vw, 0.6rem);
+}
+
+.kinds-wrap__con__box__circle {
+  width: 7em;
+  height: 7em;
 }
 
 .kinds-wrap__con__box2__ttl {
@@ -1103,17 +1120,41 @@ letter-spacing: 0.3rem;
   width: 85%;
 }
 
+.kinds-wrap__con__box__body {
+  width: 85%;
+  margin: 0 auto;
+}
+
 .faq-wrap__con__img {
   display: none;
 }
 
 .faq-wrap__con__ttl {
   padding-top: 5%;
+  font-size: clamp(1.7em, 0.795rem + 0.27vw, 1.8rem);
 }
 
 .faq-wrap__body {
   margin-top: 2%;
   }
+
+.__triangle {
+  padding-top: 18%;
+}
+
+.nice-wrap2__con__block__txt {
+  line-height: 1.4;
+  font-size: clamp(0.4rem, 1rem + 1vw, 0.8rem);
+}
+
+.doubt-wrap__con__left h2 span {
+  font-size: clamp(1.4rem, 0.795rem + 0.27vw, 1.8rem);
+}
+
+.doubt-wrap__con {
+  margin-top: -2%;
+  margin-bottom: 3%;
+}
 }
   
 @media screen and (max-width: 480px) {
@@ -1147,7 +1188,7 @@ letter-spacing: 0.3rem;
     }
     
     .top-wrap {
-      padding-top: 19.5%;
+      padding-top: 16%;
     }
     
     .header-wrap__logo {
@@ -1188,6 +1229,7 @@ letter-spacing: 0.3rem;
 
     .expe {
     margin-top: 6%;
+    
     }
   
     .expe-wrap__con2 {
@@ -1203,6 +1245,12 @@ letter-spacing: 0.3rem;
   .header-wrap__nav__list__item span {
     font-size: clamp(1.3rem, 1rem + 1vw, 1rem);
     }
+
+.expe-wrap__con2__list__item small {
+  width: 1.4rem;
+  height: 1.1rem;
+  margin-right: 3.5%;
+}
 
 .nice-wrap2__con {
   display: block;
@@ -1240,7 +1288,16 @@ letter-spacing: 0.3rem;
 }
 
 .kinds-wrap__con__box__circle p span {
-  font-size: clamp(0.3rem, 0.795rem + 0.27vw, 0.6rem);
+  font-size: clamp(0.3rem, 0.795rem + 0.27vw, 0.5rem);
+}
+
+.kinds-wrap__con__box__circle p {
+  font-size: clamp(0.8rem, 0.795rem + 0.27vw, 0.5rem);
+}
+
+.kinds-wrap__con__box__circle {
+  width: 6em;
+  height: 6em;
 }
 
 .kinds-wrap__con__box2__ttl {

@@ -91,7 +91,7 @@ li {
 }
 
 .header-wrap__nav__list__item span {
-  font-size: clamp(1.8rem, 1rem + 1vw, 1.6rem);
+  font-size: clamp(1.8rem, 1rem + 1vw, 2.5rem);
 }
 
 .top-wrap {
@@ -111,12 +111,12 @@ li {
 
 .appr-wrap__ttl {
   text-align: center;
-  letter-spacing: 0.1rem;
+  letter-spacing: 1%;
 }
 
 .appr-wrap__ttl span {
-  font-size: clamp(2rem, 0.5rem + 0.5vw, 1.2rem);
-  letter-spacing: 0.2rem;
+  font-size: clamp(2rem, 1rem + 1vw, 2.5rem);
+  letter-spacing: 1%;
   color: #EC6D81;
 }
 
@@ -134,13 +134,12 @@ li {
 
 .__cta-btn__left {
   background: #18A38F;
-    padding: 1.2em;
+    padding: 3%;
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: clamp(0.7rem, 0.7rem + 1vw, 1rem);
     text-align: center;
     line-height: 1.5;
     width: 41%;
-    height: 4em;
 }
 
 .__cta-btn__left span {
@@ -148,7 +147,7 @@ li {
 }
 
 .__cta-btn__left a i {
-  font-size: clamp(1.4rem, 1rem + 1vw, 1.2rem);
+  font-size: clamp(1.4rem, 1rem + 1vw, 1.5rem);
   margin-right: 2%;
 }
 
@@ -158,13 +157,12 @@ li {
 
 .__cta-btn__right {
   background: #EC6D81;
-  padding: 1.2em;
+  padding: 3%;
   text-decoration: none;
-  font-size: 1.1em;
+  font-size: clamp(0.7rem, 0.7rem + 1vw, 1rem);
   text-align: center;
   line-height: 1.5;
   width: 41%;
-  height: 4em;
 }
 
 .__cta-btn__right span {
@@ -216,18 +214,17 @@ li {
 .expe-wrap__con2__list__item {
   display: flex;
   align-items: center;
-  padding: 1.4% 0;
+  padding: 1.8% 0;
 }
 
 .expe-wrap__con2__list__item small {
   border: solid 1.5px #4C4948;
   color: #4C4948;
-  width: 1.3rem;
-  height: 1.3rem;
+  width: 5.5%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: clamp(1.1rem, 0.795rem + 0.27vw, 1.2rem);
+  font-size: clamp(1rem, 0.5em + 0.27vw, 1.5rem);
   margin-right: 2%;
 }
 
@@ -292,9 +289,9 @@ display: inline-block;
 }
 
 .recom-wrap__con2__ttl h1 {
-  font-size: clamp(1.8rem, 0.795rem + 0.27vw, 1.8rem);
+  font-size: clamp(1.8rem, 0.795rem + 0.27vw, 2.5rem);
   padding-bottom: 5%;
-  letter-spacing: 0.5rem;
+  letter-spacing: 5%;
   font-weight: 600;
 }
 
@@ -377,13 +374,14 @@ display: inline-block;
   color: #fff;
   padding: 2.5% 0;
   line-height: 1.6;
+  font-size: clamp(1rem, 0.795rem + 0.27vw, 1.2rem);
 }
 
 .prof-wrap__ttl {
   background-color: #18A38F;
   text-align: center;
   padding: 4%;
-  font-size: clamp(1.9rem, 0.795rem + 0.27vw, 1.8rem);
+  font-size: clamp(1.9rem, 0.795rem + 0.27vw, 2.5rem);
   margin-top: 6%;
 }
 
@@ -472,8 +470,8 @@ display: inline-block;
 }
 
 .anxi-wrap2__con__circle {
-  width: 9em;
-    height: 9em;
+  width: 9rem;
+    height: 9rem;
     position: relative;
     border-radius: 50%;
     box-sizing: border-box;
@@ -490,8 +488,8 @@ display: inline-block;
 
 .anxi-wrap2__con__circle::before {
   content: "";
-    width: 8.3em;
-    height: 8.3em;
+    width: 8.3rem;
+    height: 8.3rem;
     position: absolute;
     border: solid #D6F2EE 0.3rem;
     border-radius: 50%;
@@ -572,7 +570,7 @@ letter-spacing: 0.3rem;
 }
 
 .kinds-wrap__ttl h2 {
-  font-size: clamp(1.9rem, 0.795rem + 0.27vw, 1.8rem);
+  font-size: clamp(1.9rem, 0.795rem + 0.27vw, 2.5rem);
   color: #fff;
   font-weight: 500;
   text-align: center;
@@ -580,7 +578,7 @@ letter-spacing: 0.3rem;
 
 .kinds-wrap__con__ttl {
   text-align: center;
-  font-size: clamp(1.5rem, 0.795rem + 0.27vw, 1.8rem);
+  font-size: clamp(1.5rem, 0.795rem + 0.27vw, 2.5rem);
 }
 
 .kinds-wrap__con__ttl h3 {
@@ -603,8 +601,8 @@ letter-spacing: 0.3rem;
 }
 
 .kinds-wrap__con__box__circle {
-  width: 8.5em;
-  height: 8.5em;
+  width: 8.5rem;
+  height: 8.5rem;
   position: relative;
   border-radius: 50%;
   box-sizing: border-box;
@@ -771,7 +769,7 @@ letter-spacing: 0.3rem;
 .flow-wrap__body__block__txt h3 {
   color: #18A38F;
   margin-top: -4%;
-  font-size: clamp(1.2rem, 0.795rem + 0.27vw, 1.2rem);
+  font-size: clamp(1.2rem, 0.795rem + 0.27vw, 2rem);
 }
 
 .flow-wrap__body__block:nth-of-type(7) {
@@ -855,7 +853,7 @@ letter-spacing: 0.3rem;
 
 .faq-wrap__con__ttl {
   color: #18A38F;
-  font-size: clamp(1.9rem, 0.795rem + 0.27vw, 1.8rem);
+  font-size: clamp(1.9rem, 0.795rem + 0.27vw, 2.5rem);
   font-weight: 500;
   padding-top: 1%;
   letter-spacing: 2.5px;
@@ -885,7 +883,7 @@ letter-spacing: 0.3rem;
   position: relative;
     margin: 3.5% 0;
     background-color: #fff;
-    border: solid 1.5px #18A38F;
+    border: solid 0.1rem #18A38F;
     padding: 1.75% 3.5%;
     list-style: none;
 }
@@ -949,7 +947,7 @@ letter-spacing: 0.3rem;
 
 .faq-wrap__body__list__item__con p {
   font-weight: 400;
-  border-top: solid 1rem #18A38F;
+  border-top: solid 0.1rem #18A38F;
   margin-top: 1%;
   padding-top: 1%;
   font-size: clamp(0.85rem, 0.795rem + 0.27vw, 1rem);
@@ -972,6 +970,11 @@ letter-spacing: 0.3rem;
   color: #fff;
   font-size: clamp(0.9rem, 0.795rem + 0.27vw, 0.9rem);
 }
+
+@media screen and (min-width: 768px) {
+  .br-sp {
+    display: none;
+  } }
 
 @media screen and (min-width: 1024px) {
   .__pc {
@@ -998,7 +1001,7 @@ letter-spacing: 0.3rem;
   }
 
     .top-wrap {
-      padding-top: 11.3%;
+      padding-top: 11.1%;
     }
 
   .header-wrap__nav__list__item {
@@ -1155,6 +1158,18 @@ letter-spacing: 0.3rem;
   margin-top: -2%;
   margin-bottom: 3%;
 }
+
+.expe-wrap__right img {
+  width: 80%;
+  margin-top: 10%;
+  margin-left: 25%;
+}
+
+.expe-wrap__con2__list__item p {
+  font-size: clamp(0.95rem, 0.5em + 0.27vw, 1.5rem);
+}
+
+
 }
   
 @media screen and (max-width: 480px) {
@@ -1188,7 +1203,7 @@ letter-spacing: 0.3rem;
     }
     
     .top-wrap {
-      padding-top: 16%;
+      padding-top: 14%;
     }
     
     .header-wrap__logo {
@@ -1288,16 +1303,16 @@ letter-spacing: 0.3rem;
 }
 
 .kinds-wrap__con__box__circle p span {
-  font-size: clamp(0.3rem, 0.795rem + 0.27vw, 0.5rem);
+  font-size: clamp(0.7rem, 0.795rem + 0.27vw, 0.5rem);
 }
 
 .kinds-wrap__con__box__circle p {
-  font-size: clamp(0.8rem, 0.795rem + 0.27vw, 0.5rem);
+  font-size: clamp(0.8rem, 0.795rem + 0.27vw, 1.5rem);
 }
 
 .kinds-wrap__con__box__circle {
-  width: 6em;
-  height: 6em;
+  width: 7.2rem;
+  height: 7.2rem;
 }
 
 .kinds-wrap__con__box2__ttl {
@@ -1437,6 +1452,10 @@ letter-spacing: 0.3rem;
   margin-bottom: 6%;
 }
 
+.nice-wrap2__con__block__txt {
+  font-size: 1.1rem;
+}
+
 .anxi-wrap__ttl h4 {
   font-size: clamp(1.3rem, 0.795rem + 0.27vw, 1.8rem);
 }
@@ -1448,13 +1467,13 @@ letter-spacing: 0.3rem;
 }
 
 .anxi-wrap2__con__circle {
-  width: 8.8em;
-  height: 8.8em;
+  width: 8.8rem;
+  height: 8.8rem;
 }
 
 .anxi-wrap2__con__circle::before {
-  width: 8.3em;
-  height: 8.3em;
+  width: 8.3rem;
+  height: 8.3rem;
 }
 
 .anxi-wrap2__con__circle:nth-of-type(3) {
@@ -1462,7 +1481,7 @@ letter-spacing: 0.3rem;
 }
 
 .anxi-wrap2__con {
-  width: 83%;
+  width: 72%;
   padding-top: 3%;
 }
 
@@ -1478,6 +1497,37 @@ letter-spacing: 0.3rem;
 .anxi-wrap2__con__circle p {
   letter-spacing: 0.05rem;
 }
+}
 
+@media screen and (max-width: 320px) {
 
+  .anxi-wrap2__con {
+      width: 85%;
+      padding-top: 3%;
+}
+
+.top-wrap {
+  padding-top: 19%;
+}
+
+.kinds-wrap__con__box__circle p span {
+  font-size: clamp(0.6rem, 0.795rem + 0.27vw, 0.5rem);
+}
+
+.kinds-wrap__con__box__circle p {
+  font-size: clamp(0.8rem, 0.795rem + 0.27vw, 1.5rem);
+}
+
+.kinds-wrap__con__box__circle {
+  width: 6.2rem;
+  height: 6.2rem;
+}
+
+.kinds-wrap__con__box {
+  width: 85%;
+}
+
+.nice-wrap2__con__block__txt {
+  font-size: 1rem;
+}
 }

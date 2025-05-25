@@ -40,8 +40,8 @@ li {
 }
 
 .header-wrap__logo {
-  width: 33%;
-  padding-left: 2%;
+  width: 33vw;
+  padding-left: 2vw;
   aspect-ratio: 6 / 1;
 }
 
@@ -60,21 +60,21 @@ li {
 }
 
 .header-wrap__nav {
-  padding-right: 2.5%;
+  padding-right: 1.2vw;
 }
 
 .header-wrap__nav__list__item a {
   color: #fff;
 }
 
-.header-wrap__nav__list__item {
+.header-wrap__nav__list__item a {
   background-color: #18A38F;
-  align-items: center;
-  width: 100%;
+  width: 18vw;
   padding: 0.8vw;
   text-align: center;
   margin-top: 5%;
   margin-bottom: 5%;
+  display: block;
 }
 
 .header-wrap__nav__list__item p {
@@ -83,20 +83,21 @@ li {
   font-weight: 500;
   line-height: 1;
   padding-top: 0.5vw;
+  font-size: clamp(0.8vw, 1.068vw + 0.91vw, 1.3vw);
 }
 
 .header-wrap__nav__list__item a i {
-  font-size: clamp(0.8rem, 1.068rem + 0.91vw, 1.3rem);
-  margin-right: 2%;
+  font-size: clamp(0.8vw, 1.068vw + 0.91vw, 1.3vw);
+  margin-right: 0.5vw;
 }
 
 .header-wrap__nav__list__item span {
-  font-size: clamp(1.8rem, 1rem + 1vw, 2.5rem);
+  font-size: clamp(1.8vw, 1vw + 1vw, 2.5vw);
 }
 
 .top-wrap {
   width: 100%;
-  padding-top: 8%;
+  padding-top: 8vw;
   margin-bottom: 2%;
 }
 
@@ -134,12 +135,13 @@ li {
 
 .__cta-btn__left {
   background: #18A38F;
-    padding: 3%;
-    text-decoration: none;
-    font-size: clamp(0.7rem, 0.7rem + 1vw, 1rem);
-    text-align: center;
-    line-height: 1.5;
-    width: 41%;
+  padding: 1.2em;
+  text-decoration: none;
+  font-size: 1.1em;
+  text-align: center;
+  line-height: 1.5;
+  width: 41%;
+  height: 4em;
 }
 
 .__cta-btn__left span {
@@ -147,7 +149,7 @@ li {
 }
 
 .__cta-btn__left a i {
-  font-size: clamp(1.4rem, 1rem + 1vw, 1.5rem);
+  font-size: clamp(1.4rem, 1rem + 1vw, 1.2rem);
   margin-right: 2%;
 }
 
@@ -157,16 +159,36 @@ li {
 
 .__cta-btn__right {
   background: #EC6D81;
-  padding: 3%;
+  padding: 1.2em;
   text-decoration: none;
-  font-size: clamp(0.7rem, 0.7rem + 1vw, 1rem);
+  font-size: 1.1em;
   text-align: center;
   line-height: 1.5;
   width: 41%;
+  height: 4em;
 }
 
 .__cta-btn__right span {
   font-size: clamp(1.6rem, 1rem + 1vw, 1.5rem);
+}
+
+.button {
+  color: #fff;
+}
+
+.__cta__nav__list__item_right a {
+  background: #EC6D81;
+  text-align: center;
+  width: 26vw;
+    height: 8vw;
+    padding: 0.8vw;
+    display: block;
+    padding-top: 1.8vw;
+      padding-bottom: 1vw;
+}
+
+.__cta__nav__list__item_right span {
+  font-size: clamp(1.6vw, 1vw + 1vw, 1.5vw);
 }
 
 .expe {
@@ -974,7 +996,8 @@ letter-spacing: 0.3rem;
 @media screen and (min-width: 768px) {
   .br-sp {
     display: none;
-  } }
+  }
+}
 
 @media screen and (min-width: 1024px) {
   .__pc {
@@ -984,10 +1007,6 @@ letter-spacing: 0.3rem;
   .__sp {
     display: none;
   }
-
-    .top-wrap {
-      padding-top: 9%;
-    }
 
 }
 
@@ -999,10 +1018,6 @@ letter-spacing: 0.3rem;
   .__sp {
     display: none;
   }
-
-    .top-wrap {
-      padding-top: 11.1%;
-    }
 
   .header-wrap__nav__list__item {
     margin-left: -2%;
@@ -1052,10 +1067,6 @@ letter-spacing: 0.3rem;
 
     .header-wrap__logo {
       width: 45%;
-    }
-
-    .top-wrap {
-      padding-top: 14%;
     }
 
     .__cta-btn__left {
@@ -1161,12 +1172,18 @@ letter-spacing: 0.3rem;
 
 .expe-wrap__right img {
   width: 80%;
-  margin-top: 10%;
+  margin-top: 1%;
   margin-left: 25%;
 }
 
 .expe-wrap__con2__list__item p {
-  font-size: clamp(0.95rem, 0.5em + 0.27vw, 1.5rem);
+  font-size: clamp(0.8rem, 0.5em + 0.27vw, 1.2rem);
+}
+
+.header-wrap__nav__list__item a {
+  width: 20vw;
+  padding: 1.5vw;
+  display: block;
 }
 
 
@@ -1203,7 +1220,7 @@ letter-spacing: 0.3rem;
     }
     
     .top-wrap {
-      padding-top: 14%;
+      padding-top: 15vw;
     }
     
     .header-wrap__logo {
@@ -1260,6 +1277,15 @@ letter-spacing: 0.3rem;
   .header-wrap__nav__list__item span {
     font-size: clamp(1.3rem, 1rem + 1vw, 1rem);
     }
+
+    .header-wrap__nav__list__item p {
+      font-size: clamp(0.6rem, 1rem + 1vw, 0.8rem);
+    }
+
+  .header-wrap__nav__list__item a {
+  width: 35vw;
+  padding: 1.5vw;
+  }
 
 .expe-wrap__con2__list__item small {
   width: 1.4rem;
@@ -1444,8 +1470,12 @@ letter-spacing: 0.3rem;
 }
 
 .footer-wrap p {
-  width: 75%;
+  width: 95%;
   margin: 0 auto;
+}
+
+.footer-wrap {
+  margin-top: -2.5%;
 }
 
 .nice-wrap2__con__block:nth-of-type(1) {
@@ -1529,5 +1559,17 @@ letter-spacing: 0.3rem;
 
 .nice-wrap2__con__block__txt {
   font-size: 1rem;
+}
+
+.header-wrap__nav__list__item a {
+  width: 45vw;
+}
+
+.appr-wrap__ttl span {
+  font-size: clamp(1.5rem, 1rem + 1vw, 2rem);
+}
+
+.footer-wrap p {
+  font-size: clamp(0.3rem, 1rem + 1vw, 0.7rem);
 }
 }

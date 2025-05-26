@@ -110,6 +110,10 @@ li {
   display: none;
 }
 
+.appr {
+  width: 100%; 
+}
+
 .appr-wrap__ttl {
   text-align: center;
   letter-spacing: 1%;
@@ -126,74 +130,60 @@ li {
   margin: 0 auto;
 }
 
-.__cta {
+.cta-wrap__nav__btn {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  margin-top: 2%;
 }
 
-.__cta-btn__left {
+.cta-wrap__nav__btn__left a {
   background: #18A38F;
-  padding: 1.2em;
-  text-decoration: none;
-  font-size: 1.1em;
+  width: 18rem;
+  padding: 1.3rem;
   text-align: center;
-  line-height: 1.5;
-  width: 41%;
-  height: 4em;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: block;
+  height: 5rem;
 }
 
-.__cta-btn__left span {
+.cta-wrap__nav__btn__left {
+  text-align: center;
+  color: #fff;
+}
+
+.cta-wrap__nav__btn__left span {
   font-size: clamp(1.8rem, 1rem + 1vw, 1.8rem);
 }
 
-.__cta-btn__left a i {
+.cta-wrap__nav__btn__left a i {
   font-size: clamp(1.4rem, 1rem + 1vw, 1.2rem);
   margin-right: 2%;
 }
 
-.button {
-  color: #fff;
-}
 
-.__cta-btn__right {
+.cta-wrap__nav__btn__right a {
   background: #EC6D81;
-  padding: 1.2em;
-  text-decoration: none;
-  font-size: 1.1em;
-  text-align: center;
-  line-height: 1.5;
-  width: 41%;
-  height: 4em;
-}
-
-.__cta-btn__right span {
-  font-size: clamp(1.6rem, 1rem + 1vw, 1.5rem);
-}
-
-.button {
-  color: #fff;
-}
-
-.__cta__nav__list__item_right a {
-  background: #EC6D81;
-  text-align: center;
-  width: 26vw;
-    height: 8vw;
-    padding: 0.8vw;
+  width: 18rem;
+  padding: 1.3rem;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
     display: block;
-    padding-top: 1.8vw;
-      padding-bottom: 1vw;
+    height: 5rem;
 }
 
-.__cta__nav__list__item_right span {
-  font-size: clamp(1.6vw, 1vw + 1vw, 1.5vw);
+.cta-wrap__nav__btn__right {
+  text-align: center;
+  color: #fff;
+}
+
+.cta-wrap__nav__btn__right span {
+  font-size: clamp(1.6rem, 1rem + 1vw, 1.5rem);
 }
 
 .expe {
   background-color: #D6F2EE;
-  margin-top: 4%;
+  margin-top: 2%;
   width: 100%;
 }
 
@@ -242,11 +232,11 @@ li {
 .expe-wrap__con2__list__item small {
   border: solid 1.5px #4C4948;
   color: #4C4948;
-  width: 5.5%;
+  width: 5.3%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: clamp(1rem, 0.5em + 0.27vw, 1.5rem);
+  font-size: clamp(1rem, 0.5rem + 0.27vw, 1.5rem);
   margin-right: 2%;
 }
 
@@ -576,13 +566,13 @@ letter-spacing: 0.3rem;
 .Resolved {
   background-color: #F4EDDE;
   padding-top: 2%;
-  padding-bottom: 3%;
+  padding-bottom: 2%;
 }
 
 .kinds-wrap__con {
   background-color: #D6F2EE;
   margin: 0 auto;
-  margin-top: 4%;
+  margin-top: 5%;
   padding-bottom: 2%;
 }
 
@@ -927,6 +917,7 @@ letter-spacing: 0.3rem;
 .faq-wrap__body__list__item__con {
   transform: translate(0);
   transition: all 0.3s;
+  cursor: pointer;
 }
 
 .faq-wrap__body__list__item__ttl {
@@ -978,7 +969,7 @@ letter-spacing: 0.3rem;
 .Resolved2 {
   background-color: #F4EDDE;
   padding-top: 2%;
-  padding-bottom: 3%;
+  padding-bottom: 2%;
   margin-top: 0.5%;
 }
 
@@ -1007,7 +998,6 @@ letter-spacing: 0.3rem;
   .__sp {
     display: none;
   }
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -1017,10 +1007,6 @@ letter-spacing: 0.3rem;
 
   .__sp {
     display: none;
-  }
-
-  .header-wrap__nav__list__item {
-    margin-left: -2%;
   }
 
     .__inner {
@@ -1035,13 +1021,14 @@ letter-spacing: 0.3rem;
     margin-top: -2%;
     width: 65%;
     height: 60%;
-    margin-right: -4%;
+    margin-right: -5%;
     }
 
   .__triangle {
     padding-top: 13%;
     }
-}
+  }
+
 
 @media screen and (max-width: 768px) {
 
@@ -1054,7 +1041,7 @@ letter-spacing: 0.3rem;
     }
   
     .__inner {
-      width: 85%;
+      width: 80%;
     }
   
     .html {
@@ -1068,28 +1055,6 @@ letter-spacing: 0.3rem;
     .header-wrap__logo {
       width: 45%;
     }
-
-    .__cta-btn__left {
-    font-size: 0.7em;
-    width: 42%;
-        }
-
-  .__cta-btn__left span {
-  font-size: clamp(1.1rem, 1rem + 1vw, 1.2rem);
-  }
-
-  .__cta-btn__left a i {
-      font-size: clamp(0.7rem, 1rem + 1vw, 1rem);
-    }
-
-  .__cta-btn__right {
-  font-size: 0.7em;
-  width: 42%;
-  }
-        
-  .__cta-btn__right span {
-  font-size: clamp(1.1rem, 1rem + 1vw, 1rem);
-  }
 
   .recom-wrap__con1__ttl h4 span {
     font-size: clamp(1.7rem, 0.795rem + 0.27vw, 1.3rem);
@@ -1105,7 +1070,7 @@ letter-spacing: 0.3rem;
       }
 
   .doubt-wrap__con__right {
-  margin-top: 5%;
+  margin-top: 8%;
   margin-right: -7%;
   }
   .doubt-wrap__con__left h2 span {
@@ -1162,31 +1127,106 @@ letter-spacing: 0.3rem;
 }
 
 .doubt-wrap__con__left h2 span {
-  font-size: clamp(1.4rem, 0.795rem + 0.27vw, 1.8rem);
+  font-size: clamp(1.6rem, 0.795rem + 0.27vw, 1.8rem);
 }
 
 .doubt-wrap__con {
   margin-top: -2%;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
 }
 
 .expe-wrap__right img {
   width: 80%;
   margin-top: 1%;
-  margin-left: 25%;
+  margin-left: 15%;
 }
 
 .expe-wrap__con2__list__item p {
-  font-size: clamp(0.8rem, 0.5em + 0.27vw, 1.2rem);
+  font-size: clamp(0.9rem, 0.5em + 0.27vw, 1.2rem);
+}
+
+.top-wrap {
+  padding-top: 12vw;
 }
 
 .header-wrap__nav__list__item a {
-  width: 20vw;
+  width: 22vw;
   padding: 1.5vw;
   display: block;
 }
 
+.header-wrap__nav__list__item p {
+  font-size: clamp(1vw, 1.068vw + 0.91vw, 1.5vw);
+}
 
+.header-wrap__nav__list__item a i {
+  font-size: clamp(2vw, 1.068vw + 0.91vw, 1.3vw);
+  margin-right: 0.5vw;
+}
+
+.header-wrap__nav__list__item span {
+  font-size: clamp(2.5vw, 1vw + 1vw, 2.9vw);
+}
+
+.cta-wrap__nav__btn__left a {
+  width: 91%;
+  height: 4.8rem;
+}
+
+.cta-wrap__nav__btn__left p {
+  font-size: clamp(0.4rem, 1rem + 1vw, 1rem);
+}
+
+.cta-wrap__nav__btn__left span {
+  font-size: clamp(1.5rem, 1rem + 1vw, 1.2rem);
+}
+
+.cta-wrap__nav__btn__left a i {
+  font-size: clamp(1.3rem, 1rem + 1vw, 1rem);
+}
+
+.cta-wrap__nav__btn__right a {
+  width: 91%;
+  height: 4.8rem;
+}
+
+.cta-wrap__nav__btn__right span {
+  font-size: clamp(1.5em, 1rem + 1vw, 1rem);
+}
+
+.cta-wrap__nav__btn_right p {
+  font-size: clamp(0.4rem, 1rem + 1vw, 1rem);
+}
+
+.cta-wrap__nav__btn {
+width: 100%;
+display: block;
+margin-top: -3%;
+}
+
+.expe-wrap__con2__list__item small {
+font-size: clamp(0.8rem, 0.5rem + 0.27vw, 1.6rem);
+margin-right: 3%;
+width: 1.2rem;
+height: 1.2rem;
+border: solid 1px #4C4948;
+}
+
+.expe-wrap__right img {
+  margin-top: 0%;
+  margin-left: 25%;
+  width: 50%;
+}
+
+.expe-wrap__con2 {
+  display: block;
+  align-items: center;
+  width: 91%;
+}
+
+.expe-wrap__con2__list__item p {
+  font-size: clamp(1rem, 1.068rem + 0.91vw, 1.1rem);
+}
 }
   
 @media screen and (max-width: 480px) {
@@ -1227,18 +1267,17 @@ letter-spacing: 0.3rem;
       width: 40%;
     }
 
-    .__cta {
-      display: block;
-      margin: 0 auto;
+    .cta-wrap__nav__btn {
+    width: 94%;
+    display: block;
+        }
+    
+    .cta-wrap__nav__btn__left a {
+      width: 96%;
     }
     
-    .__cta-btn__left {
-      width: 90%;
-      margin-bottom: 3%;
-    }
-    
-    .__cta-btn__right {
-      width: 90%;
+    .cta-wrap__nav__btn__right a {
+      width: 96%;
     }
 
     .expe-wrap__right img {
@@ -1260,15 +1299,17 @@ letter-spacing: 0.3rem;
     }
 
     .expe {
-    margin-top: 6%;
+    margin-top: 5.5%;
     
     }
   
     .expe-wrap__con2 {
     display: block;
-    width: 80%;
+    width: 92%;
     margin: 0 auto;
+    margin-left: -1%;
     }
+    
   
   .header-wrap__nav__list__item a i {
   font-size: clamp(0.6rem, 1.068rem + 0.91vw, 1.1rem);
@@ -1288,9 +1329,11 @@ letter-spacing: 0.3rem;
   }
 
 .expe-wrap__con2__list__item small {
-  width: 1.4rem;
-  height: 1.1rem;
+  width: 1.6rem;
+  height: 1.6rem;
   margin-right: 3.5%;
+  font-size: clamp(1.1rem, 0.5em + 0.27vw, 1.3rem);
+  border: solid 1px #4C4948;
 }
 
 .nice-wrap2__con {
@@ -1475,7 +1518,7 @@ letter-spacing: 0.3rem;
 }
 
 .footer-wrap {
-  margin-top: -2.5%;
+  margin-top: -4%;
 }
 
 .nice-wrap2__con__block:nth-of-type(1) {
@@ -1527,6 +1570,10 @@ letter-spacing: 0.3rem;
 .anxi-wrap2__con__circle p {
   letter-spacing: 0.05rem;
 }
+
+.expe-wrap__con2__list__item p {
+  font-size: clamp(0.8rem, 1.068rem + 0.91vw, 1.1rem);
+}
 }
 
 @media screen and (max-width: 320px) {
@@ -1567,6 +1614,12 @@ letter-spacing: 0.3rem;
 
 .appr-wrap__ttl span {
   font-size: clamp(1.5rem, 1rem + 1vw, 2rem);
+}
+
+.expe-wrap__con2__list__item small {
+  width: 1.6rem;
+  height: 1.4rem;
+  font-size: clamp(0.9rem, 0.5em + 0.27vw, 1.2rem);
 }
 
 .footer-wrap p {
